@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JSHWBuoi5
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <h1 class="text-center">JS_HW_Buoi_5</h1>
+    </header>
+    <main>
+        <!-- Bai 1 -->
+        <div class="container my-5 ">
+            <h2>Bai 1</h2>
+            <hr>
+            <div class="row row-cols-3">
+                <input class="col-4 mx-auto my-1" type="text" id="diemChuan" placeholder="Điểm chuẩn">
+                <select class="col-4 mx-auto my-1" name="" id="chonKhuVuc">
+                    <option value="0">Chọn khu vực</option>
+                    <option value="2">A</option>
+                    <option value="1">B</option>
+                    <option value="0.5">C</option>
+                </select>
+                <select class="col-4 mx-auto my-1" name="" id="chonDoiTuong">
+                    <option value="0">Chọn đối tượng</option>
+                    <option value="2.5">1</option>
+                    <option value="1.5">2</option>
+                    <option value="1">3</option>
+                </select>
+                <input class="col-4 mx-auto my-1" type="text" id="diemMonNhat" placeholder="Điểm môn thứ 1">
+                <input class="col-4 mx-auto my-1" type="text" id="diemMonHai" placeholder="Điểm môn thứ 2">
+                <input class="col-4 mx-auto my-1" type="text" id="diemMonBa" placeholder="Điểm môn thứ 3">
+            </div>
+            <button class="btn btn-primary rounded-2 my-2" type="button" id="btnTinhDiem">
+                Tính điểm
+            </button>
+            <div id="hienKetQua1"></div>
+        </div>
+
+        <!-- Bai 2 -->
+        <div class="container my-5 ">
+            <h2>Bai 2</h2>
+            <hr>
+            <div class="row row-cols-3">
+                <input class="col-4 mx-auto my-1" type="text" id="hoTen2" placeholder="Nhập họ tên">
+                <input class="col-4 mx-auto my-1" type="text" id="soKw" placeholder="Nhập số kw">
+            </div>
+            <button class="btn btn-primary rounded-2 my-2" type="button" id="btnTinhTienDien">
+                Tính tiền điện
+            </button>
+            <div id="hienKetQua2"></div>
+        </div>
+
+        <!-- Bai 3 -->
+        <div class="container my-5 ">
+            <h2>Bai 3</h2>
+            <hr>
+            <div class="row row-cols-3">
+                <input class="col-4 mx-auto my-1" type="text" id="hoTen3" placeholder="Nhập họ tên">
+                <input class="col-4 mx-auto my-1" type="text" id="thuNhap" placeholder="Tổng thu nhập năm">
+                <input class="col-4 mx-auto my-1" type="text" id="nguoiPhuThuoc" placeholder="Số người phụ thuộc">
+            </div>
+            <button class="btn btn-primary rounded-2 my-2" type="button" id="btnTinhTienThue">
+                Tính tiền thuế
+            </button>
+            <div id="hienKetQua3"></div>
+        </div>
+
+        <!-- Bai 4 -->
+        <div class="container my-5 ">
+            <h2>Bai 4</h2>
+            <hr>
+            <div class="row row-cols-3">
+                <select name="" id="khachHang">
+                    <option value="0">Chọn khách hàng</option>
+                    <option value="1">Nhà Dân</option>
+                    <option value="2">Doanh Nhiệp</option>
+                </select>
+
+                <input class="col-4 mx-auto my-1" type="text" id="maKH" placeholder="Mã số khách hàng">
+
+                <input class="col-4 mx-auto my-1" type="text" id="soKenh" placeholder="Số kênh cao cấp">
+
+                <input style="visibility: hidden;" class="col-4 mx-auto my-1" type="text" id="soKetNoi"
+                    placeholder="Số kết nối">
+            </div>
+            <button class="btn btn-primary rounded-2 my-2" type="button" id="btnTinhTienCap">
+                Tính tiền cáp
+            </button>
+            <div id="hienKetQua4"></div>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
